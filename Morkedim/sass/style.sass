@@ -1,0 +1,2570 @@
+body
+  background-color: #ffffff
+  margin: 0px auto !important
+  padding: 0
+  span
+    font-size: 0.8rem
+
+  .clear
+    clear: both
+  .container
+    width: 1180px
+    max-width: 1180px
+    padding-right: 0
+    padding-left: 0
+
+
+  header
+    background-color: white
+    width: 100%
+    min-height: 315px
+    .header-top
+      background-image: url(../images/header-background.png)
+      background-repeat: repeat-x
+      width: 100%
+      height: 80px
+      position: relative
+      text-align: center
+      .duyuru
+        span
+          font-family: 'Montserrat', sans-serif
+          font-weight: bold
+          color: white
+          font-size: 18px
+          text-align: center
+          line-height: 85px
+        img
+          width: 65px
+          height: 55px
+          position: relative
+          left: 18px
+        i
+          color: white
+          position: relative
+          left: 45px
+
+    .header-center
+      padding: 0
+      width: 100%
+      .logo
+        margin-top: 12px
+      .search
+        color: lightgray
+        padding: 20px 0
+        position: relative
+        margin-right: 0px
+        .input-search
+          border-radius: 10px
+          border: 1px solid lightgray
+          background-color: white
+          width: 100%
+          height: 40px
+          line-height: 40px
+          padding: 0 25px
+          font-size: 16px
+
+        .ara-icon
+          position: absolute
+          right: 0px
+          top: 30px
+          width: 40px
+          height: 30px
+          text-align: center
+          color: gray
+
+      .accounts
+        padding: 20px 0px
+        float: right
+        font-size: 0.8rem
+
+      li
+        display: inline-block
+        border: 1px solid lightgray
+        border-radius: 5px
+        list-style: none
+        height: 40px
+        line-height: 40px
+        color: darkgray
+        margin-right: 10px
+        padding: 0 15px
+
+        .cart-count
+          background-color: #9f539d
+          color: #FFFFFF
+          position: absolute
+          border-radius: 10px
+          width: 20px
+          height: 20px
+          line-height: 20px
+          text-align: center
+          top: 15px
+          right: 20px
+          font-size: 12px
+          font-weight: bold
+
+        .secmeli-menu-1
+          display: inline-block
+          line-height: 30px
+          button
+            margin-bottom: 5px
+            font-size: 1rem
+            color: darkgray
+            &:focus
+              box-shadow: none
+        .dropdown-menu
+          a
+            color: gray
+            font-size: 0.8rem
+          a:hover
+            color: darkgray
+
+    hr
+      margin-top: 0
+      margin-bottom: 0
+
+
+    .header-center-iletisim
+      width: 100%
+      height: 60px
+      float: left
+      position: relative
+      line-height: 60px
+      ul
+        margin: 0
+        padding: 0
+      li
+        float: left
+        list-style: none
+        margin-right: 5px
+
+      .musteri-hizmet
+        a
+          color: #45066f
+        a:hover
+          text-decoration: none
+      .whatsapp
+        a
+          color: #00e676
+          span
+            font-size: 1rem
+            color: #45066f
+        a:hover
+          text-decoration: none
+
+
+      .iletisim-menu-sec
+        float: right
+        margin-top: 10px
+        .secmeli-menu-2,.dil
+          border: 1px solid lightgray
+          border-radius: 5px
+          display: block
+          line-height: 30px
+          button
+            font-size: 0.8rem
+            color: darkgray
+            &:focus
+              box-shadow: none
+          .dropdown-menu
+            a
+              color: lightgray
+              font-size: 0.8rem
+            a:hover
+              color: darkgray
+
+
+    .header-menu
+      width: 100%
+      background-color: #eaf2f4
+      position: absolute
+      text-decoration: none
+      height: 60px
+      margin-top: 5px
+      nav
+        ul
+          margin: 0
+          padding: 0
+          text-align: center
+        li
+          float: left
+          list-style: none
+          padding-right: 30px
+          line-height: 60px
+          font-weight: 500
+          a
+            color: #652e88
+            text-align: center
+          a:hover
+            text-decoration: none
+            color: #45066f
+            border-bottom: 4px solid #45066f
+            display: grid
+
+      .menu-toggle
+        float: right
+        line-height: 60px
+        cursor: pointer
+        display: none
+
+
+  section
+    position: relative
+    min-height: 330px
+    .fixed-bar-sag
+      width: 31px
+      height: 330px
+      position: sticky
+      right: 0
+      float: right
+      top: 10px
+      z-index: 999
+      ul
+        margin: 0
+        padding: 0
+      li
+        right: 0
+        width: 30px
+        height: 30px
+        background-color: white
+        background-image: url("../images/sag-fixed-bar.png")
+        background-repeat: no-repeat
+        list-style: none
+        position: relative
+        a
+          display: none
+          position: relative
+          width: 95px
+          height: 30px
+          line-height: 30px
+          text-align: center
+        a:hover
+          display: block
+      li.facebook
+        &:hover
+          a
+            display: inline-block
+            position: absolute
+            right: 30px
+            color: white
+            background-color: #3a559f
+            text-decoration: none
+
+      li.instagram
+        background-position-y: -35px
+        &:hover
+          background-color: #ec1c58
+          a
+            right: 95px
+            display: inline-block
+            color: white
+            background-color: #ec1c58
+            text-decoration: none
+
+      li.toy
+        background-position-y: -66px
+        &:hover
+          background-color: #9f539d
+          a
+            background-color: #9f539d
+            display: inline-block
+            color: white
+            right: 95px
+            text-decoration: none
+
+      li.ball
+        background-position-y: -100px
+        &:hover
+          background-color: deepskyblue
+          a
+            background-color: deepskyblue
+            display: inline-block
+            color: white
+            right: 95px
+            text-decoration: none
+
+      li.person
+        background-position-y: -131px
+        &:hover
+          background-color: #e7ff00
+          a
+            background-color: #e7ff00
+            display: inline-block
+            color: white
+            right: 95px
+            text-decoration: none
+
+      li.message
+        background-position-y: -162px
+        &:hover
+          background-color: #0d728c
+          a
+            background-color: #0d728c
+            display: inline-block
+            color: white
+            right: 95px
+            text-decoration: none
+
+      li.like
+        background-position-y: -194px
+        &:hover
+          background-color: #3b5695
+          a
+            background-color: #3b5695
+            display: inline-block
+            color: white
+            right: 95px
+            text-decoration: none
+
+      li.whatsapp
+        background-position-y: -224px
+        &:hover
+          background-color: #00e676
+          a
+            background-color: #00e676
+            display: inline-block
+            color: white
+            right: 95px
+            text-decoration: none
+
+      li.ok
+        background-position-y: -256px
+        transition-property: width
+        transition-duration: 1s
+        &:hover
+          background-color: black
+
+
+    .slider-image
+      width: 100%
+      height: auto
+      display: flex
+      position: absolute
+      ul
+        margin: 0
+        padding: 0
+      li
+        float: left
+        list-style: none
+        img
+          width: 100%
+        .resim-2
+          padding-left: 60px
+
+
+  .payment-menu
+    background-color: #ececec
+    border: 1px solid #f3f3f3
+    height: 55px
+    display: block
+    width: 100%
+    margin: 20px 0
+    padding-top: 12px
+    text-align: center
+    ul
+      list-style: none
+
+
+  banner
+    .banner-menu
+      margin-right: auto
+      margin-left: auto
+      img
+        width: 100%
+        margin-bottom: 20px
+        .banner-img
+          width: 100%
+
+
+  product
+    .product-list
+      .col-sm-4,.foto
+        .foto-2
+          display: none
+      h4
+        border: 1px solid #f9f9f9
+        border-radius: 15px
+        color: #9f539d
+        height: 50px
+        line-height: 50px
+        padding-left: 30px
+        box-shadow: 10px 10px 10px #eed8f1
+        font-weight: bold
+        word-spacing: 5px
+        letter-spacing: 1px
+      #owl-wrapper,#owl-wrappers,#pop-list-1,#pop-list-2
+        position: relative
+        float: none
+        margin-right: auto
+        margin-left: auto
+        &:after
+          position: absolute
+          content: ''
+        .list-item
+          padding: 15px
+          color: #9f539d
+          display: inline-block
+          .inner
+            float: left
+            padding: 15px
+            width: 100%
+            color: #9f539d
+            .options
+              text-align: center
+            .item-group .list-image
+              display: table
+            button
+              border: 1px solid #9f539d
+              background-color: #9f539d
+              color: white
+              border-radius: 5px
+              width: 100%
+              height: 30px
+              margin-top: 10px
+              display: inline-block
+            .item-group
+              .ilk-fiyat
+                text-decoration: line-through
+                padding: inherit
+                float: left
+              .son-fiyat
+                float: right
+
+      .section-list
+        .pop-image
+          margin-left: 290px
+        #pop-list-2
+          display: inline-block
+          width: 100%
+          .list-item
+            display: inline-block
+            width: calc( 100% / 6)
+            margin-right: -5px
+            padding: 20px
+            .inner
+              .list-image
+                .product-image
+                  width: auto
+                  height: 160px
+
+
+      .owl-carousel
+        position: relative
+        display: block
+        width: inherit
+        cursor: pointer
+        transition: all 0.5s ease 0s
+        text-align: center
+
+        .owl-dots .owl-dot span
+          width: 60px
+          height: 3px
+          background: #9f539d
+          border-radius: 0px
+          margin: 0 10px
+        .owl-dot.active span
+          background-color: #45066f
+
+
+  footer
+    .footer-payment
+      margin-top: -20px
+      margin-bottom: 10px
+    .footer-text
+      .read-more
+        position: relative
+        display: block
+        width: 100%
+        height: auto
+        background-color: #FFFFFF
+        border: 1px dashed #9f539d
+        border-radius: 10px
+        h4
+        .border-left
+          border-left: 10px solid #9f539d
+          height: 30px
+          color: #9f539d
+
+
+        .read-text,.mobil-none
+          color: #bcbcbc
+          margin: 0px 30px 50px
+
+    .footer-abone
+      float: left
+      margin-top: 50px
+      background-color: #e6e6e6
+      color: #9f539d
+      width: 100%
+      height: 60px
+
+      .footer-news
+        width: 100%
+        float: left
+
+        .abone
+          font-size: 14px
+          display: inline-block
+          position: relative
+          top: 8px
+
+        .e-posta
+          display: inline-block
+          padding: 10px 15px
+          font-size: 0.8rem
+
+          input
+            width: 275px
+            background: #84bfc3
+            color: #FFFFFF
+            border: solid #84bfc3
+            border-radius: 15px
+            margin-right: -100px
+            margin-top: 7px
+
+          button
+            width: 97px
+            height: 28px
+            background: #9f539d
+            color: #FFFFFF
+            border: solid #9f539d
+            border-radius: 15px
+
+      .social-nav
+        display: inline-block
+        width: 100%
+        line-height: 60px
+        padding: 0 10px
+        ul
+          float: right
+          margin: 0
+          padding: 0
+          li
+            float: left
+            list-style: none
+            padding-right: 15px
+
+            a
+              display: block
+              line-height: 40px
+              text-align: center
+              margin: 10px 5px
+              color: #9f539d
+          li:hover
+            font-size: 24px
+
+
+    .footer-center
+      background-color: #f4f4f4
+      width: 100%
+      height: auto
+      color: #9f539d
+      display: inline-block
+
+      .footer-info
+        margin-top: 40px
+        font-size: 14px
+        .about-us
+          .web-none
+
+        .contact-info,.fast-menu
+          width: 100%
+          text-align: center
+          h5
+          .border-left
+            border-left: 5px solid #84bfc2 !important
+            z-index: 99
+            height: 35px
+
+          ul
+            margin: 0
+            padding: 0
+            li
+              list-style: none
+              a
+                text-decoration: none
+                color: #9f539d
+
+    .footer-copyright
+      width: 100%
+      height: auto
+      line-height: 50px
+      background-color: #9f539d
+      color: #FFFFFF
+      a
+        color: #FFFFFF
+        float: right
+
+
+  a
+  .scrollup
+    position: fixed
+    background: #9f539d
+    color: #FFFFFF
+    width: 50px
+    height: 50px
+    line-height: 50px
+    z-index: 9999
+    border-radius: 1px
+    right: 10px
+    bottom: 70px
+    text-align: center
+
+
+
+  section
+    min-height: auto
+    top: 15px
+    .main-content
+      .page-content
+        ul
+        .images
+          margin-left: -30px
+        li
+          list-style: none
+
+
+        .owl-carousel
+          position: relative
+          display: block
+          width: inherit
+          cursor: pointer
+          transition: all 0.5s ease 0s
+          text-align: center
+
+          .owl-nav
+            display: block
+            top: 30% !important
+            position: absolute
+            width: 100%
+            .owl-prev
+              position: relative
+              border: 1px solid #9f539d
+              background: #9f539d
+              float: left
+              width: 20px
+              line-height: 30px
+              span
+                color: white
+                font-size: 2rem
+
+
+            .owl-next
+              position: relative
+              border: 1px solid #9f539d
+              background: #9f539d
+              float: right
+              width: 20px
+              line-height: 30px
+              span
+                color: white
+                font-size: 2rem
+
+
+          .owl-dots,.owl-dot
+            display: inline-block
+            text-align: center
+            text-align: -moz-center
+
+          .owl-dots .owl-dot span
+            background: #9f539d
+          .owl-dot.active span
+            background-color: #45066f
+
+
+        .right-bar
+          h2
+            color: #a0549c
+
+          .border-left
+            border-left: 5px solid #dee2e6 !important
+            padding-left: 5px
+            height: auto
+
+          .product-details
+            color: #45066f
+            ul
+            .colors
+              padding: 0
+
+              .price-list
+                border: 1px solid #a0549c
+                padding: 0
+                background: white
+                display: inline-block
+                width: 100%
+                border-radius: 20px
+                span
+                  font-size: 16px
+                .price
+                  font-size: 26px
+                  font-weight: bold
+                  color: #45066f
+                  line-height: 50px
+                  padding: 0 10px
+
+                .shipping
+                  float: right
+                  font-size: 14px
+                  width: 37%
+                  line-height: 15px
+                  padding: 10px 20px
+                  background: #f83356
+                  color: white
+                  border-radius: 20px
+
+
+              .options
+                color: #a0549c
+                margin: 25px auto
+                padding: 20px
+                .color
+                  li
+                    float: left
+                    padding-right: 5px
+                    input
+                      border-radius: 100%
+                      width: 20px
+                      height: 20px
+
+                .size
+                  li
+                    float: left
+                    padding-right: 5px
+                    input
+                      border-radius: 15%
+                      width: 100px
+                      height: 25px
+
+
+          .product-details
+            .colors
+              .product-number
+                width: 100%
+                button
+                  width: 120px
+                  border: 1px solid #a0549c
+                  color: #a0549c
+                  .btn:focus
+                    box-shadow: #a0549c
+                  span
+                    font-size: 1rem
+                .dropdown-menu
+                  .dropdown-item
+                    color: #a0549c
+                #order-add
+                  width: 50%
+                  float: right
+                  background: #a0549c
+                  color: #FFFFFF
+              #buy-now
+                width: 100%
+                margin-top: 20px
+
+              .taksit
+                width: 100%
+                display: inline-block
+                li
+                  float: left
+                  input
+                    width: 120px
+                    height: 100px
+                    margin: auto 10px
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1180px)
+  body
+    background-color: #ffffff
+    margin: 0 !important
+    padding: 0
+    span
+      font-size: 0.8rem
+
+    .clear
+      clear: both
+    .container
+      width: 1180px
+      max-width: 1180px
+      padding-right: 0
+      padding-left: 0
+
+
+    header
+      background-color: white
+      width: 100%
+      height: 315px
+      .header-top
+        background-image: url(../images/header-background.png)
+        background-repeat: repeat-x
+        width: 100%
+        height: 80px
+        position: relative
+        text-align: center
+        .duyuru
+          span
+            font-family: 'Montserrat', sans-serif
+            font-weight: bold
+            color: white
+            font-size: 18px
+            text-align: center
+            line-height: 85px
+          img
+            width: 65px
+            height: 55px
+            position: relative
+            left: 18px
+          i
+            color: white
+            position: relative
+            left: 45px
+
+      .header-center
+        padding: 0
+        width: 100%
+        .logo
+          margin-top: 12px
+        .search
+          color: lightgray
+          padding: 20px 0
+          position: relative
+          margin-right: 0px
+          .input-search
+            border-radius: 10px
+            border: 1px solid lightgray
+            background-color: white
+            width: 100%
+            height: 40px
+            line-height: 40px
+            padding: 0 25px
+            font-size: 16px
+
+          .ara-icon
+            position: absolute
+            right: 0px
+            top: 30px
+            width: 40px
+            height: 30px
+            text-align: center
+            color: gray
+
+        .accounts
+          padding: 20px 0px
+          float: right
+          font-size: 0.8rem
+
+        li
+          display: inline-block
+          border: 1px solid lightgray
+          border-radius: 5px
+          list-style: none
+          height: 40px
+          line-height: 40px
+          color: darkgray
+          margin-right: 10px
+          padding: 0 15px
+
+          .cart-count
+            background-color: #9f539d
+            color: #FFFFFF
+            position: absolute
+            border-radius: 10px
+            width: 20px
+            height: 20px
+            line-height: 20px
+            text-align: center
+            top: 15px
+            right: 20px
+            font-size: 12px
+            font-weight: bold
+
+          .secmeli-menu-1
+            display: inline-block
+            line-height: 30px
+            button
+              margin-bottom: 5px
+              font-size: 1rem
+              color: darkgray
+              &:focus
+                box-shadow: none
+          .dropdown-menu
+            a
+              color: gray
+              font-size: 0.8rem
+            a:hover
+              color: darkgray
+
+      hr
+        margin-top: 0
+        margin-bottom: 0
+
+
+      .header-center-iletisim
+        width: 100%
+        height: 60px
+        float: left
+        position: relative
+        line-height: 60px
+        ul
+          margin: 0
+          padding: 0
+        li
+          float: left
+          list-style: none
+          margin-right: 5px
+
+        .musteri-hizmet
+          a
+            color: #45066f
+          a:hover
+            text-decoration: none
+        .whatsapp
+          a
+            color: #00e676
+            span
+              font-size: 1rem
+              color: #45066f
+          a:hover
+            text-decoration: none
+
+
+        .iletisim-menu-sec
+          float: right
+          margin-top: 10px
+          .secmeli-menu-2,.dil
+            border: 1px solid lightgray
+            border-radius: 5px
+            display: block
+            line-height: 30px
+            button
+              font-size: 0.8rem
+              color: darkgray
+              &:focus
+                box-shadow: none
+            .dropdown-menu
+              a
+                color: lightgray
+                font-size: 0.8rem
+              a:hover
+                color: darkgray
+
+
+      .header-menu
+        width: 100%
+        background-color: #eaf2f4
+        position: absolute
+        text-decoration: none
+        height: 60px
+        margin-top: 5px
+        nav
+          ul
+            margin: 0
+            padding: 0
+            text-align: center
+          li
+            float: left
+            list-style: none
+            padding-right: 30px
+            line-height: 60px
+            font-weight: 500
+            a
+              color: #652e88
+              text-align: center
+            a:hover
+              text-decoration: none
+              color: #45066f
+              border-bottom: 4px solid #45066f
+              display: grid
+
+        .menu-toggle
+          float: right
+          line-height: 60px
+          cursor: pointer
+          display: none
+
+
+
+    section
+      position: relative
+      min-height: 330px
+      .fixed-bar-sag
+        width: 31px
+        height: 330px
+        position: sticky
+        right: 0
+        float: right
+        top: 10px
+        z-index: 999
+        ul
+          margin: 0
+          padding: 0
+        li
+          right: 0
+          width: 30px
+          height: 30px
+          background-color: white
+          background-image: url("../images/sag-fixed-bar.png")
+          background-repeat: no-repeat
+          list-style: none
+          position: relative
+          a
+            display: none
+            position: relative
+            width: 95px
+            height: 30px
+            line-height: 30px
+            text-align: center
+          a:hover
+            display: block
+        li.facebook
+          &:hover
+            a
+              display: inline-block
+              position: absolute
+              right: 30px
+              color: white
+              background-color: #3a559f
+              text-decoration: none
+
+        li.instagram
+          background-position-y: -35px
+          &:hover
+            background-color: #ec1c58
+            a
+              right: 95px
+              display: inline-block
+              color: white
+              background-color: #ec1c58
+              text-decoration: none
+
+        li.toy
+          background-position-y: -66px
+          &:hover
+            background-color: #9f539d
+            a
+              background-color: #9f539d
+              display: inline-block
+              color: white
+              right: 95px
+              text-decoration: none
+
+        li.ball
+          background-position-y: -100px
+          &:hover
+            background-color: deepskyblue
+            a
+              background-color: deepskyblue
+              display: inline-block
+              color: white
+              right: 95px
+              text-decoration: none
+
+        li.person
+          background-position-y: -131px
+          &:hover
+            background-color: #e7ff00
+            a
+              background-color: #e7ff00
+              display: inline-block
+              color: white
+              right: 95px
+              text-decoration: none
+
+        li.message
+          background-position-y: -162px
+          &:hover
+            background-color: #0d728c
+            a
+              background-color: #0d728c
+              display: inline-block
+              color: white
+              right: 95px
+              text-decoration: none
+
+        li.like
+          background-position-y: -194px
+          &:hover
+            background-color: #3b5695
+            a
+              background-color: #3b5695
+              display: inline-block
+              color: white
+              right: 95px
+              text-decoration: none
+
+        li.whatsapp
+          background-position-y: -224px
+          &:hover
+            background-color: #00e676
+            a
+              background-color: #00e676
+              display: inline-block
+              color: white
+              right: 95px
+              text-decoration: none
+
+        li.ok
+          background-position-y: -256px
+          transition-property: width
+          transition-duration: 1s
+          &:hover
+            background-color: black
+
+
+      .slider-image
+        width: 100%
+        height: auto
+        display: flex
+        position: absolute
+        ul
+          margin: 0
+          padding: 0
+        li
+          float: left
+          list-style: none
+          img
+            width: 100%
+          .resim-2
+            padding-left: 60px
+
+
+    .payment-menu
+      background-color: #ececec
+      border: 1px solid #f3f3f3
+      height: 55px
+      display: block
+      width: 100%
+      margin: 20px 0
+      padding-top: 12px
+      text-align: center
+      ul
+        list-style: none
+
+
+    banner
+      .banner-menu
+        margin-right: auto
+        margin-left: auto
+        img
+          width: 100%
+          margin-bottom: 20px
+          .banner-img
+            width: 100%
+
+
+    product
+      .product-list
+        .col-sm-4,.foto
+          .foto-2
+            display: none
+        h4
+          border: 1px solid #f9f9f9
+          border-radius: 15px
+          color: #9f539d
+          height: 50px
+          line-height: 50px
+          padding-left: 30px
+          box-shadow: 10px 10px 10px #eed8f1
+          font-weight: bold
+          word-spacing: 5px
+          letter-spacing: 1px
+        #owl-wrapper,#owl-wrappers,#pop-list-1,#pop-list-2
+          position: relative
+          float: none
+          margin-right: auto
+          margin-left: auto
+          &:after
+            position: absolute
+            content: ''
+          .list-item
+            padding: 15px
+            color: #9f539d
+            display: inline-block
+            .inner
+              float: left
+              padding: 15px
+              width: 100%
+              color: #9f539d
+              .options
+                text-align: center
+              .item-group .list-image
+                display: table
+              button
+                border: 1px solid #9f539d
+                background-color: #9f539d
+                color: white
+                border-radius: 5px
+                width: 100%
+                height: 30px
+                margin-top: 10px
+                display: inline-block
+              .item-group
+                .ilk-fiyat
+                  text-decoration: line-through
+                  padding: inherit
+                  float: left
+                .son-fiyat
+                  float: right
+
+        .section-list
+          .pop-image
+            margin-left: 290px
+          #pop-list-2
+            display: inline-block
+            width: 100%
+            .list-item
+              display: inline-block
+              width: calc( 100% / 6)
+              margin-right: -5px
+              padding: 20px
+              .inner
+                .list-image
+                  .product-image
+                    width: auto
+                    height: 160px
+
+
+        .owl-carousel
+          position: relative
+          display: block
+          width: inherit
+          cursor: pointer
+          transition: all 0.5s ease 0s
+          text-align: center
+
+          .owl-dots .owl-dot span
+            width: 60px
+            height: 3px
+            background: #9f539d
+            border-radius: 0px
+            margin: 0 10px
+          .owl-dot.active span
+            background-color: #45066f
+
+
+    footer
+      .footer-payment
+        margin-top: -20px
+        margin-bottom: 10px
+      .footer-text
+        .read-more
+          position: relative
+          display: block
+          width: 100%
+          height: auto
+          background-color: #FFFFFF
+          border: 1px dashed #9f539d
+          border-radius: 10px
+          h4
+          .border-left
+            border-left: 10px solid #9f539d
+            height: 30px
+            color: #9f539d
+
+
+          .read-text,.mobil-none
+            color: #bcbcbc
+            margin: 0px 30px 50px
+
+      .footer-abone
+        float: left
+        margin-top: 50px
+        background-color: #e6e6e6
+        color: #9f539d
+        width: 100%
+        height: 60px
+
+        .footer-news
+          width: 100%
+          float: left
+
+          .abone
+            font-size: 14px
+            display: inline-block
+            position: relative
+            top: 8px
+
+          .e-posta
+            display: inline-block
+            padding: 10px 15px
+            font-size: 0.8rem
+
+            input
+              width: 275px
+              background: #84bfc3
+              color: #FFFFFF
+              border: solid #84bfc3
+              border-radius: 15px
+              margin-right: -100px
+              margin-top: 7px
+
+            button
+              width: 97px
+              height: 28px
+              background: #9f539d
+              color: #FFFFFF
+              border: solid #9f539d
+              border-radius: 15px
+
+        .social-nav
+          display: inline-block
+          width: 100%
+          line-height: 60px
+          padding: 0 10px
+          ul
+            float: right
+            margin: 0
+            padding: 0
+            li
+              float: left
+              list-style: none
+              padding-right: 15px
+
+              a
+                display: block
+                line-height: 40px
+                text-align: center
+                margin: 10px 5px
+                color: #9f539d
+            li:hover
+              font-size: 24px
+
+
+      .footer-center
+        background-color: #f4f4f4
+        width: 100%
+        height: auto
+        color: #9f539d
+        display: inline-block
+
+        .footer-info
+          margin-top: 40px
+          font-size: 14px
+          .about-us
+            .web-none
+
+          .contact-info,.fast-menu
+            width: 100%
+            text-align: center
+            h5
+            .border-left
+              border-left: 5px solid #84bfc2 !important
+              z-index: 99
+              height: 30px
+
+            ul
+              margin: 0
+              padding: 0
+              li
+                list-style: none
+                a
+                  text-decoration: none
+                  color: #9f539d
+
+      .footer-copyright
+        width: 100%
+        height: auto
+        line-height: 50px
+        background-color: #9f539d
+        color: #FFFFFF
+        a
+          color: #FFFFFF
+          float: right
+
+
+    a
+    .scrollup
+      position: fixed
+      background: #9f539d
+      color: #FFFFFF
+      width: 50px
+      height: 50px
+      line-height: 50px
+      z-index: 9999
+      border-radius: 1px
+      right: 10px
+      bottom: 70px
+      text-align: center
+
+
+@media screen and (min-width: 480px) and (max-width: 767px)
+  body
+    background-color: #ffffff
+    margin: 0 !important
+    padding: 0
+    span
+      font-size: 0.8rem
+
+    .clear
+      clear: both
+    .container
+      max-width: 780px
+      padding-right: 0
+      padding-left: 0
+
+    header
+      background-color: white
+      width: 100%
+      height: 315px
+      .header-top
+        background-image: url(../images/header-background.png)
+        background-repeat: repeat-x
+        width: 100%
+        height: 80px
+        position: relative
+        text-align: center
+        .duyuru
+          span
+            font-family: 'Montserrat', sans-serif
+            font-weight: bold
+            color: white
+            font-size: 18px
+            text-align: center
+            line-height: 85px
+          img
+            width: 65px
+            height: 55px
+            position: relative
+            left: 18px
+          i
+            color: white
+            position: relative
+            left: 45px
+
+      .header-center
+        padding: 0
+        width: 100%
+        .logo
+          margin-top: 12px
+        .search
+          color: lightgray
+          padding: 20px 0
+          position: relative
+          margin-right: 0px
+          left: 40px
+          .input-search
+            border-radius: 10px
+            border: 1px solid lightgray
+            background-color: white
+            width: 100%
+            height: 40px
+            line-height: 40px
+            padding: 0 25px
+            font-size: 16px
+
+          .ara-icon
+            position: absolute
+            right: 0px
+            top: 30px
+            width: 40px
+            height: 30px
+            text-align: center
+            color: gray
+
+
+
+        .accounts
+          position: absolute
+
+          margin-left: 45%
+          ul
+            padding: 0
+
+          .cart-count
+            right: 5px
+
+          .secmeli-menu-1
+            display: none
+
+      hr
+        margin-top: 0
+        margin-bottom: 0
+
+
+      .header-center-iletisim
+        width: 100%
+        height: 60px
+        float: left
+        position: relative
+        line-height: 60px
+        ul
+          margin: 0
+          padding: 0
+        li
+          float: left
+          list-style: none
+          margin-right: 5px
+
+        .musteri-hizmet
+          a
+            color: #45066f
+          a:hover
+            text-decoration: none
+        .whatsapp
+          a
+            color: #00e676
+            span
+              font-size: 1rem
+              color: #45066f
+          a:hover
+            text-decoration: none
+
+
+        .iletisim-menu-sec
+          float: right
+          margin-top: 10px
+          .dil
+            border: 1px solid lightgray
+            border-radius: 5px
+            display: block
+            line-height: 30px
+            button
+              font-size: 0.8rem
+              color: darkgray
+              &:focus
+                box-shadow: none
+            .dropdown-menu
+              a
+                color: lightgray
+                font-size: 0.8rem
+              a:hover
+                color: darkgray
+
+          .secmeli-menu-2
+            display: none
+
+
+
+      .header-menu
+        width: 100%
+        background-color: #eaf2f4
+        position: absolute
+        text-decoration: none
+        height: 60px
+        margin-top: 5px
+        nav
+          ul
+            margin: 0
+            padding: 0
+            text-align: center
+          li
+            float: left
+            list-style: none
+            padding-right: 0px
+            line-height: 60px
+            font-weight: 500
+            a
+              color: #652e88
+              text-align: center
+            a:hover
+              text-decoration: none
+              color: #45066f
+              border-bottom: 4px solid #45066f
+              display: grid
+
+        .menu-toggle
+          float: right
+          line-height: 60px
+          cursor: pointer
+          display: none
+
+
+
+    section
+      position: relative
+      min-height: 330px
+      .fixed-bar-sag
+        width: 31px
+        height: 330px
+        position: sticky
+        right: 0
+        float: right
+        top: 10px
+        z-index: 999
+        ul
+          margin: 0
+          padding: 0
+        li
+          right: 0
+          width: 30px
+          height: 30px
+          background-color: white
+          background-image: url("../images/sag-fixed-bar.png")
+          background-repeat: no-repeat
+          list-style: none
+          position: relative
+          a
+            display: none
+            position: relative
+            width: 95px
+            height: 30px
+            line-height: 30px
+            text-align: center
+          a:hover
+            display: block
+        li.facebook
+          &:hover
+            a
+              display: inline-block
+              position: absolute
+              right: 30px
+              color: white
+              background-color: #3a559f
+              text-decoration: none
+
+        li.instagram
+          background-position-y: -35px
+          &:hover
+            background-color: #ec1c58
+            a
+              right: 95px
+              display: inline-block
+              color: white
+              background-color: #ec1c58
+              text-decoration: none
+
+        li.toy
+          background-position-y: -66px
+          &:hover
+            background-color: #9f539d
+            a
+              background-color: #9f539d
+              display: inline-block
+              color: white
+              right: 95px
+              text-decoration: none
+
+        li.ball
+          background-position-y: -100px
+          &:hover
+            background-color: deepskyblue
+            a
+              background-color: deepskyblue
+              display: inline-block
+              color: white
+              right: 95px
+              text-decoration: none
+
+        li.person
+          background-position-y: -131px
+          &:hover
+            background-color: #e7ff00
+            a
+              background-color: #e7ff00
+              display: inline-block
+              color: white
+              right: 95px
+              text-decoration: none
+
+        li.message
+          background-position-y: -162px
+          &:hover
+            background-color: #0d728c
+            a
+              background-color: #0d728c
+              display: inline-block
+              color: white
+              right: 95px
+              text-decoration: none
+
+        li.like
+          background-position-y: -194px
+          &:hover
+            background-color: #3b5695
+            a
+              background-color: #3b5695
+              display: inline-block
+              color: white
+              right: 95px
+              text-decoration: none
+
+        li.whatsapp
+          background-position-y: -224px
+          &:hover
+            background-color: #00e676
+            a
+              background-color: #00e676
+              display: inline-block
+              color: white
+              right: 95px
+              text-decoration: none
+
+        li.ok
+          background-position-y: -256px
+          transition-property: width
+          transition-duration: 1s
+          &:hover
+            background-color: black
+
+
+      .slider-image
+        width: 100%
+        height: auto
+        display: flex
+        position: absolute
+        ul
+          margin: 0
+          padding: 0
+        li
+          float: left
+          list-style: none
+          img
+            width: 100%
+          .resim-2
+            display: none
+
+
+    .payment-menu
+      background-color: #ececec
+      border: 1px solid #f3f3f3
+      height: 55px
+      display: block
+      width: 100%
+      margin: 20px 0
+      padding-top: 12px
+      text-align: center
+      ul
+        list-style: none
+      .payment-icon
+        width: 100%
+
+
+    banner
+      .banner-menu
+        margin-right: auto
+        margin-left: auto
+        img
+          width: 100%
+          margin-bottom: 20px
+          .banner-img
+            width: 100%
+
+
+    product
+      .product-list
+        .col-sm-4,.foto
+          .foto-2
+            display: none
+        h4
+          border: 1px solid #f9f9f9
+          border-radius: 15px
+          color: #9f539d
+          height: 50px
+          line-height: 50px
+          padding-left: 30px
+          box-shadow: 10px 10px 10px #eed8f1
+          font-weight: bold
+          word-spacing: 5px
+          letter-spacing: 1px
+        #owl-wrapper,#owl-wrappers,#pop-list-1,#pop-list-2
+          position: relative
+          float: none
+          margin-right: auto
+          margin-left: auto
+          &:after
+            position: absolute
+            content: ''
+          .list-item
+            padding: 15px
+            color: #9f539d
+            display: inline-block
+            .inner
+              float: left
+              padding: 15px
+              width: 100%
+              color: #9f539d
+              .options
+                text-align: center
+              .item-group .list-image
+                display: table
+              button
+                border: 1px solid #9f539d
+                background-color: #9f539d
+                color: white
+                border-radius: 5px
+                width: 100%
+                height: 30px
+                margin-top: 10px
+                display: inline-block
+              .item-group
+                .ilk-fiyat
+                  text-decoration: line-through
+                  padding: inherit
+                  float: left
+                .son-fiyat
+                  float: right
+
+        .section-list
+          .pop-image
+            margin-left: 290px
+          #pop-list-2
+            display: inline-block
+            width: 100%
+            .list-item
+              display: inline-block
+              width: calc( 100% / 6)
+              margin-right: -5px
+              padding: 20px
+              .inner
+                .list-image
+                  .product-image
+                    width: auto
+                    height: 160px
+
+
+        .owl-carousel
+          position: relative
+          display: block
+          width: inherit
+          cursor: pointer
+          transition: all 0.5s ease 0s
+          text-align: center
+
+          .owl-dots .owl-dot span
+            width: 60px
+            height: 3px
+            background: #9f539d
+            border-radius: 0px
+            margin: 0 10px
+          .owl-dot.active span
+            background-color: #45066f
+
+
+    footer
+      .footer-payment
+        margin-top: -20px
+        margin-bottom: 10px
+      .footer-text
+        .read-more
+          position: relative
+          display: block
+          width: 100%
+          height: auto
+          background-color: #FFFFFF
+          border: 1px dashed #9f539d
+          border-radius: 10px
+          h4
+          .border-left
+            border-left: 10px solid #9f539d
+            height: 30px
+            color: #9f539d
+
+
+          .read-text,.mobil-none
+            color: #bcbcbc
+            margin: 0px 30px 50px
+
+      .footer-abone
+        float: left
+        margin-top: 50px
+        background-color: #e6e6e6
+        color: #9f539d
+        width: 100%
+        height: 60px
+
+        .footer-news
+          width: 100%
+          float: left
+
+          .abone
+            font-size: 14px
+            display: inline-block
+            position: relative
+            top: 8px
+
+          .e-posta
+            display: inline-block
+            padding: 10px 15px
+            font-size: 0.8rem
+
+            input
+              width: 275px
+              background: #84bfc3
+              color: #FFFFFF
+              border: solid #84bfc3
+              border-radius: 15px
+              margin-right: -100px
+              margin-top: 7px
+
+            button
+              width: 97px
+              height: 28px
+              background: #9f539d
+              color: #FFFFFF
+              border: solid #9f539d
+              border-radius: 15px
+
+        .social-nav
+          display: inline-block
+          width: 100%
+          line-height: 60px
+          padding: 0 10px
+          ul
+            float: right
+            margin: 0
+            padding: 0
+            li
+              float: left
+              list-style: none
+              padding-right: 15px
+
+              a
+                display: block
+                line-height: 40px
+                text-align: center
+                margin: 10px 5px
+                color: #9f539d
+            li:hover
+              font-size: 24px
+
+
+      .footer-center
+        background-color: #f4f4f4
+        width: 100%
+        height: auto
+        color: #9f539d
+        display: inline-block
+
+        .footer-info
+          margin-top: 40px
+          font-size: 14px
+          .about-us
+            .web-none
+
+          .contact-info,.fast-menu
+            width: 100%
+            text-align: center
+            h5
+            .border-left
+              border-left: 5px solid #84bfc2 !important
+              z-index: 99
+              height: 30px
+
+            ul
+              margin: 0
+              padding: 0
+              li
+                list-style: none
+                a
+                  text-decoration: none
+                  color: #9f539d
+
+      .footer-copyright
+        width: 100%
+        height: auto
+        line-height: 50px
+        background-color: #9f539d
+        color: #FFFFFF
+        a
+          color: #FFFFFF
+          float: right
+
+
+    a
+    .scrollup
+      position: fixed
+      background: #9f539d
+      color: #FFFFFF
+      width: 50px
+      height: 50px
+      line-height: 50px
+      z-index: 9999
+      border-radius: 1px
+      right: 10px
+      bottom: 70px
+      text-align: center
+
+
+//@media screen and (min-width: 481px) and (max-width: 780px)
+  body
+    .container
+      width: 100%
+      max-width: 100%
+      box-sizing: border-box
+      padding-right: 0px
+      padding-left: 3px
+      .row
+        width: 100%
+        margin: 0 auto
+
+    header
+      width: 100%
+      height: 215px
+      .header-top
+        width: 100%
+        image
+          width: 100%
+        .duyuru
+          .fa-window-close
+            left: 0px
+          img
+            display: none
+
+
+      .header-center
+        width: 100%
+        .logo
+          width: 45%
+          height: 100%
+          margin-top: 12px
+        .search
+          display: inline-block
+          width: 100%
+          float: right
+          right: 0
+          top: 20px
+
+          .input-search
+            border: none
+            width: 100%
+            height: 40px
+            line-height: 40px
+            padding: 0 10px
+            font-size: 16px
+          .ellipsis
+            text-overflow: ellipsis
+            overflow: visible
+
+        .accounts
+          position: absolute
+          margin-top: -130px
+          margin-left: 45%
+          ul
+            padding: 0
+
+          .cart-count
+            right: 5px
+
+          .secmeli-menu-1
+            display: none
+
+      .header-center-iletisim
+        width: 100%
+        height: 60px
+        float: left
+        position: relative
+        line-height: 60px
+        ul
+          margin: 0
+          padding: 0
+        li
+          float: left
+          list-style: none
+          margin-left: 5px
+
+        .musteri-hizmet
+          display: none
+        .whatsapp
+          position: absolute
+          bottom: 20px
+          a
+            color: #00e676
+            span
+              color: #45066f
+
+        .iletisim-menu-sec
+          display: none
+
+
+      .header-menu
+        margin-top: -165px
+        height: 30px
+        background: none
+        .menu-toggle
+          display: block
+          color: darkgray
+          line-height: 40px
+          .fa-bars
+            font-size: xx-large
+            margin-right: 15px
+
+
+        nav.active
+          left: 100px
+        nav
+          position: absolute
+          width: 70%
+          height: calc(100% - 25px)
+          background: #eaf2f4
+          top: 40px
+          left: 100%
+          transition: 0.5s
+          z-index: 9999
+          ul
+            display: grid
+            background-color: #eaf2f4
+          li
+            line-height: 50px
+            padding: 0
+            a:hover
+              display: inline
+
+
+    section
+      width: 100%
+      min-height: 150px
+
+      .fixed-bar-sag
+        display: none
+
+      .slider-image
+        margin-top: 5px
+        ul li
+
+          img
+            width: 100%
+          .resim-2
+            display: none
+
+
+    .payment-menu
+      height: 50px
+
+      .payment-icon
+        width: 100%
+        margin: 5px auto
+
+
+    banner
+      .banner-menu
+        img
+          margin-bottom: 5px
+
+        .sub-foto
+          width: 100%
+          a
+            float: left
+            width: 50%
+        .reklam-resmi
+          display: none
+
+
+    product
+      .product-list
+        .col-sm-8
+
+          h4
+            text-align: center
+            padding-left: 0
+            word-spacing: 0
+            letter-spacing: 0
+
+          #owl-wrapper,.owl-carousel
+            position: relative
+            display: block
+            width: inherit
+            cursor: pointer
+            transition: all 0.5s ease 0s
+            text-align: center
+            .list-item
+              .inner
+                padding: 0px !important
+
+
+            .owl-dots
+              margin-top: -2%
+
+            .owl-dots .owl-dot span
+              margin: 0 10px
+
+        .foto
+          margin-top: 5%
+          margin-bottom: -5%
+
+          .foto-2
+            display: block
+          a
+            width: 100%
+            img
+              float: left
+              width: 50%
+              padding-right: 5px
+          .foto-3
+            display: none
+
+      .section-list
+        display: none
+
+
+    footer
+      .col-sm-2
+        width: 50%
+        height: auto
+        margin: 10px auto
+
+      .footer-payment
+        .payments
+          img
+            width: 100%
+            height: auto
+
+      .footer-text
+        .read-more
+          .read-text
+            margin: 0px 5px 10px
+          .mobil-none
+            display: none
+
+        img
+          margin-top: 5px
+          width: 100%
+          height: auto
+
+
+      .footer-abone
+        height: 200px
+
+
+        .footer-news
+          .e-posta
+            padding: 15px 0
+            input
+              border-radius: 10px
+              width: 380px
+              height: 34px
+            button
+              width: 100px
+              height: 34px
+
+        .social-nav
+          padding: 0
+          line-height: 20px
+          ul
+            float: right
+            li
+              padding-right: 40px
+            a
+              margin: 10px 15px
+              line-height: 30px
+
+      .footer-center
+        .footer-info
+          .fast-menu
+            height: auto
+            .border-left
+              height: 45px
+          .about-us
+            display: block
+            img
+              width: 100%
+
+          .contact-info
+            h5
+              margin-bottom: 25px
+
+      .footer-copyright
+        line-height: 33px
+        .copyright
+          text-align: center
+        a
+          float: left
+          margin-left: 5%
+
+
+    a
+    .scrollup
+      right: 2px
+      bottom: 140px
+
+
+
+
+@media screen and (min-width: 300px) and (max-width: 479px)
+  body
+    .col-*
+      padding-right: 0
+      padding-left: 0
+    .container
+      width: 100%
+      max-width: 100%
+      box-sizing: border-box
+      padding-right: 0px
+      padding-left: 3px
+      .row
+        width: 100%
+        margin: 0 auto
+
+
+    header
+      width: 100%
+      height: 215px
+      .header-top
+        width: 100%
+        image
+          width: 100%
+        .duyuru
+          .fa-window-close
+            left: 0px
+          img
+            display: none
+
+
+      .header-center
+        width: 100%
+        .logo
+          width: 45%
+          height: 100%
+          margin-top: 12px
+        .search
+          display: inline-block
+          width: 100%
+          float: right
+          right: 0
+          top: 20px
+
+          .input-search
+            border: none
+            width: 100%
+            height: 40px
+            line-height: 40px
+            padding: 0 10px
+            font-size: 16px
+          .ellipsis
+            text-overflow: ellipsis
+            overflow: visible
+
+        .accounts
+          position: absolute
+          margin-top: -130px
+          margin-left: 45%
+          ul
+            padding: 0
+
+          .cart-count
+            right: 5px
+
+          .secmeli-menu-1
+            display: none
+
+      .header-center-iletisim
+        width: 100%
+        height: 60px
+        float: left
+        position: relative
+        line-height: 60px
+        ul
+          margin: 0
+          padding: 0
+        li
+          float: left
+          list-style: none
+          margin-left: 5px
+
+        .musteri-hizmet
+          display: none
+        .whatsapp
+          position: absolute
+          bottom: 20px
+          a
+            color: #00e676
+            span
+              color: #45066f
+
+        .iletisim-menu-sec
+          display: none
+
+
+      .header-menu
+        margin-top: -165px
+        height: 30px
+        background: none
+        .menu-toggle
+          display: block
+          color: darkgray
+          line-height: 40px
+          .fa-bars
+            font-size: xx-large
+            margin-right: 15px
+
+
+        nav.active
+          left: 100px
+        nav
+          position: absolute
+          width: 70%
+          height: calc(100% - 25px)
+          background: #eaf2f4
+          top: 40px
+          left: 100%
+          transition: 0.5s
+          z-index: 9999
+          ul
+            display: grid
+            background-color: #eaf2f4
+          li
+            line-height: 50px
+            padding: 0
+            a:hover
+              display: inline
+
+
+    section
+      width: 100%
+      min-height: 140px
+
+      .fixed-bar-sag
+        display: none
+
+      .slider-image
+        margin-top: 5px
+        ul li
+
+          img
+            width: 100%
+          .resim-2
+            display: none
+
+
+    .payment-menu
+      margin-top: 20px
+
+      .payment-icon
+        width: 100%
+        margin: 5px auto
+
+
+    banner
+      .banner-menu
+        img
+          margin-bottom: 5px
+
+        .sub-foto
+          width: 100%
+          a
+            float: left
+            width: 50%
+
+        .reklam-resmi
+          display: none
+
+    product
+      .product-list
+        .col-sm-8
+
+          h4
+            text-align: center
+            padding-left: 0
+            word-spacing: -2px
+            letter-spacing: -1px
+
+          #owl-wrapper,.owl-carousel
+            position: relative
+            display: block
+            width: inherit
+            cursor: pointer
+            transition: all 0.5s ease 0s
+            text-align: center
+            .list-item
+              .inner
+                padding: 0px !important
+
+
+            .owl-dots
+              margin-top: -2%
+
+            .owl-dots .owl-dot span
+              margin: 0 10px
+
+        .foto
+          margin-top: 5%
+          margin-bottom: -5%
+
+          .foto-2
+            display: block
+          a
+            width: 100%
+            img
+              float: left
+              width: 50%
+              padding-right: 5px
+          .foto-3
+            display: none
+
+      .section-list
+        display: none
+
+
+    footer
+      .col-sm-2
+        width: 50%
+        height: auto
+        margin: 10px auto
+
+      .footer-payment
+        .payments
+          img
+            width: 100%
+            height: auto
+
+      .footer-text
+        .read-more
+          .read-text
+            margin: 0px 5px 10px
+          .mobil-none
+            display: none
+        img
+          margin-top: 5px
+          width: 100%
+          height: auto
+
+
+      .footer-abone
+        height: 200px
+
+
+        .footer-news
+          .e-posta
+            padding: 15px 0
+            input
+              border-radius: 10px
+              width: 280px
+              height: 34px
+            button
+              width: 99px
+              height: 34px
+
+        .social-nav
+          padding: 0
+          line-height: 0px
+          ul
+            float: right
+            li
+              padding-right: 40px
+            a
+              margin: 0px 5px
+              line-height: 30px !important
+
+      .footer-center
+        .footer-info
+          .fast-menu
+            height: auto
+            .border-left
+              height: 45px
+          .about-us
+            display: block
+            img
+              width: 100%
+
+          .contact-info
+            h5
+              margin-bottom: 25px
+
+      .footer-copyright
+        line-height: 33px
+        .copyright
+          text-align: center
+        a
+          float: left
+          margin-left: 5%
+
+
+    a
+    .scrollup
+      right: 2px
+      bottom: 140px
+

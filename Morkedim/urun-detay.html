@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+    <!-- OWL Carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"  crossorigin="anonymous">
+
+    <title>Morkedim Sitesi</title>
+    <link rel="stylesheet" href="css/style.css?v=3">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('.menu-toggle').click(function(){
+            $('nav').toggleClass('active')
+        })
+    })
+
+</script>
+
+<header>
+    <div class="header-top">
+        <div class="duyuru">
+                <span>Morkedim.com da Büyük İndirim Kampanyası
+                <img src="images/duyuru.gif.png" ></span>
+            <i onclick="$(this).parent().hide()" class="far fa-window-close"></i>
+        </div>
+    </div>
+
+    <div class="header-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 col-xs-2">
+                    <a href="" target="_self" title="Home">
+                        <img class="logo" src="images/LOGO.png">
+                    </a>
+                </div>
+                <div class="col-sm-5 col-xs-6">
+                    <div class="search">
+                        <input name="search" class="input-search ellipsis" placeholder="Aramak istediğiniz ürünü yazınız...">
+                        <span class="ara-icon"><i class="fa fa-search"></i></span>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-4">
+                    <div class="accounts">
+                        <ul class="web-menu-user pull-right">
+                            <li data-toggle="dropdown"><i class="fas fa-user-circle" ></i>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">Hesap Bilgileri</a>
+                                    <a class="dropdown-item" href="#">Müşteri Bilgileri</a>
+                                    <a class="dropdown-item" href="#">Detaylar</a>
+                                </div>
+                                <div class="secmeli-menu-1">
+                                    <button type="button" class="btn btn-text-secondary">
+                                        <span class="dropdown-toggle"> Sn Yunus Doğukan </span>
+                                    </button>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="login" href="#" style="color:darkgray;"><i class="fas fa-shopping-bag"></i>
+                                    <span class="cart-count">2</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="header-center-iletisim">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <ul>
+                        <li class="musteri-hizmet"><a href="#"><i class="fas fa-phone-volume"> </i><strong> Müşteri Hizmetleri :</strong> 0850 304 4 371</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-4">
+                    <ul>
+                        <li class="whatsapp"><a href="#"><i class="fab fa-whatsapp"> </i><strong> Whatsapp Sipariş : <span> 0544 240 71 99</span></strong></a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="iletisim-menu-sec">
+                        <ul>
+                            <li>
+                                <div class="secmeli-menu-2">
+                                    <button type="button" class="btn btn-text-secondary dropdown-toggle" data-toggle="dropdown">
+                                        <span> Seçmeli Menü Gelebilir </span>
+                                    </button>
+                                    <div class="dropdown-menu" >
+                                        <a class="dropdown-item" href="#">menu 1</a>
+                                        <a class="dropdown-item" href="#">menu 2</a>
+                                        <a class="dropdown-item" href="#">menu 3</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="dil">
+                                    <button type="button" class="btn btn-text-secondary dropdown-toggle" data-toggle="dropdown">
+                                        <span>TR | EN</span>
+                                    </button>
+                                    <div class="dropdown-menu" >
+                                        <a class="dropdown-item" href="#">Türkçe</a>
+                                        <a class="dropdown-item" href="#">İngilizce</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="clear"></div>
+
+    <div class="header-menu">
+        <div class="container">
+            <nav class="main-menu">
+                <ul>
+                    <li>
+                        <a href=""> YENİ DOĞAN </a>
+                    </li>
+                    <li>
+                        <a href=""> KIZ BEBEK </a>
+                    </li>
+                    <li>
+                        <a href=""> ERKEK BEBEK </a>
+                    </li>
+                    <li>
+                        <a href=""> ERKEK ÇOÇUK </a>
+                    </li>
+                    <li>
+                        <a href=""> KIZ ÇOÇUK </a>
+                    </li>
+                    <li>
+                        <a href=""> AKSESUAR </a>
+                    </li>
+                    <li>
+                        <a href=""> LİSANSLI ÜRÜNLER </a>
+                    </li>
+                    <li>
+                        <a href=""> AYAKKABI </a>
+                    </li>
+                    <li>
+                        <a href=""> OUTLET </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="clear"></div>
+
+</header>
+
+<section>
+    <div class="main-content">
+        <div class="page-content">
+            <div id="product-info" class="container">
+                <div class="row">
+                    <div class="col-sm-6 image-content">
+                        <ul class="images">
+                            <li>
+                                <a href="#"><img src="images/bebek-detay.jpg"></a>
+                            </li>
+                        </ul>
+                        <div  id="owl-wrapper" class="owl-carousel owl-theme owl-loaded owl-drag" >
+                            <a href="#"><img class="img-fluid" src="images/mini-bebek-detay.jpg" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="right-bar">
+                            <h2 class="border-left">Erkek Bebek İkili Takım Lacivert 1629530</h2>
+                            <hr>
+                            <div class="product-details">
+                                <ul class="details">
+                                    <li>
+                                        Lacivert-1629000000
+                                        <br>
+                                        Ana Kumaş: %80 Pamuk %20 Poliester
+                                        <br>
+                                        Stok Kodu: 800555
+                                        <br>
+                                    </li>
+                                    <hr>
+                                    <li class="price-list">
+                                        <span class="price">125,00₺</span>
+                                        <span class="shipping">
+                                         13.07.2019 tarihine kadar kargoya verilecek
+                                        </span>
+                                    </li>
+                                    <br>
+                                    <li>
+                                        <li class="options" data-required="1">
+                                            <h6 class="border-left"> RENK </h6>
+                                            <ul class="color">
+                                                <li>
+                                                    <label for="option_value_76958">
+                                                        <input type="text"  value="" id="option_value_76958" name="option[14062]">
+                                                    </label>
+                                                </li>
+                                                <li data-option-id="color" data-id="76963" class="main-option" data-price="0">
+                                                    <label for="color_2">
+                                                        <input type="text"  value="" id="color_2" name="option[14062]">
+                                                    </label>
+                                                </li>
+                                                <li data-option-id="color" data-id="76958" class="main-option" data-price="0">
+                                                    <label for="color_3">
+                                                        <input type="text" value="" id="color_3" name="option[14062]">
+                                                    </label>
+                                                </li>
+                                                <li data-option-id="14062" data-id="76958" class="main-option" data-price="0">
+                                                    <label for="color_4">
+                                                        <input type="text" value="" id="color_4" name="option[14062]">
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label for="color_5">
+                                                        <input type="text" value="" id="color_5" name="option[14062]">
+                                                    </label>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="options" data-required="1">
+                                            <h6 class="border-left"> BEDEN - Beden Tablosu </h6>
+                                            <ul class="size">
+                                                <li>
+                                                    <label for="beden-1">
+                                                        <input type="text"  value="" id="beden-1" name="size">
+                                                        0 - 1 ay
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label for="beden-2">
+                                                        <input type="text"  value="" id="beden-2" name="size">
+                                                        1 - 3 ay
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label for="beden-3">
+                                                        <input type="text"  value="" id="beden-3" name="size">
+                                                        3 - 6 ay
+                                                    </label>
+                                                </li>
+                                                <li>
+                                                    <label for="beden-4">
+                                                        <input type="text"  value="" id="beden-4" name="">
+                                                        6 - 9 ay
+                                                    </label>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                    </li>
+                                    <li class="error-option"></li>
+                                    <br>
+                                    <hr>
+                                    <li>
+                                        <h6> ADET </h6>
+                                        <div class="product-number">
+                                            <button type="button" class="btn btn-text-secondary dropdown-toggle" data-toggle="dropdown">
+                                                <span> Adet </span>
+                                            </button>
+                                            <div class="dropdown-menu" >
+                                                <a class="dropdown-item" href="#">1 adet</a>
+                                                <a class="dropdown-item" href="#">2 adet</a>
+                                                <a class="dropdown-item" href="#">3 adet</a>
+                                                <a class="dropdown-item" href="#">4 adet</a>
+                                                <a class="dropdown-item" href="#">5 adet</a>
+                                            </div>
+                                            <button type="button" id="order-add" class="btn cart-add-button">
+                                                <i class="fas fa-shopping-basket"></i>
+                                                Sepete Ekle
+                                                <i class="fas fa-heart"></i>
+                                            </button>
+                                        </div>
+                                        <li>
+                                            <button type="button" id="buy-now" onclick="" class="btn btn-success cart-add-button">
+                                                <i class="icon-bag"></i> Hızlı Sipariş
+                                            </button>
+                                        </li>
+                                    </li>
+                                    <li>
+                                        <li class="options" data-required="1">
+                                            <div class="taksit">
+                                                <h6> TAKSİT SEÇENEKLERİ </h6>
+                                                <hr>
+                                                <ul>
+                                                    <li>
+                                                        <label for="option_value_76958">
+                                                            <input type="text"  value="" id="option_value_76958" name="option[14062]">
+                                                            3 AY TAKSİT
+                                                        </label>
+                                                    </li>
+                                                    <li data-option-id="14062" data-id="76963" class="main-option" data-price="0">
+                                                        <label for="color_2">
+                                                            <input type="text"  value="" id="color_2" name="option[14062]">
+                                                            6 AY TAKSİT
+                                                        </label>
+                                                    </li>
+                                                    <li data-option-id="14062" data-id="76958" class="main-option" data-price="0">
+                                                        <label for="color_3">
+                                                            <input type="text" value="" id="color_3" name="option[14062]">
+                                                            9 AY TAKSİT
+                                                        </label>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="options">
+                                            <h6> TESLİM </h6>
+                                            <hr>
+                                            <p>	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quisquam, consequuntur dolore doloremque quam cum odit minus ipsum voluptate, quos quas deserunt aut hic voluptates.
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque similique harum ipsam ad voluptatum vel at recusandae eos, mollitia dolor!
+                                            </p>
+
+                                        </li>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+<br>
+<br>
+
+
+
+
+<footer>
+    <div class="footer-payment">
+        <div class="container">
+            <div class="payments">
+                <img src="images/payment.png" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="footer-text">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9">
+                    <div class="read-more">
+                        <h4 class="border-left"><strong>MORKEDİM.COM</strong></h4>
+                        <p class="read-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Odit, inventore repudiandae eligendi animi perspiciatis, ex minima, consequatur dolore doloribus optio aspernatur, quis saepe vitae mollitia!
+                            Obcaecati recusandae harum possimus culpa eos doloremque quae nulla quasi hic at, reprehenderit nam odit quidem minima, blanditiis nesciunt alias voluptatem, doloribus assumenda sit minus asperiores laboriosam, tempora.
+                            Numquam atque sunt asperiores libero natus inventore nostrum incidunt quidem reprehenderit cumque neque ab enim consequatur architecto dignissimos, mollitia nihil.<p class="mobil-none">Cumque iusto blanditiis optio culpa aliquid, molestias voluptate ea doloribus accusantium eos, ullam ut nihil!
+                        Facilis maiores iusto molestias laudantium quos repudiandae nesciunt nihil architecto dolore. Nisi esse at voluptatem distinctio facere tempore optio, consequuntur fugiat earum placeat libero quos voluptas magni odio sit debitis eaque odit
+                        saepe fuga ullam culpa deserunt asperiores pariatur. Quia deleniti, aperiam aut incidunt numquam. Obcaecati debitis at excepturi, rem minima porro animi.
+                    </p>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#">
+                        <img class="yaz-indirimleri" src="images/yaz-indirimi.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-abone">
+        <div class="container">
+            <div class="footer-news">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <div class="abone">
+                                    <span>
+                                        <strong>Haberlere Abone Ol</strong><br>
+                                        Kaydol ve bir üründe %25 indirim kazan.
+                                    </span>
+                        </div>
+                        <div class="e-posta">
+                            <input  class="mail" type="email" placeholder="e-posta adresiniz">
+                            <button type="submit">gönder</button>
+                        </div>
+
+                    </div>
+
+                    <div class="col-sm-4">
+                        <div class="social-nav">
+                            <span>Sosyal Medya Hesaplarımız : </span>
+                            <ul>
+                                <li>
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-twitter"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-instagram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-center">
+        <div class="container">
+            <div class="footer-info">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <div class="about-us">
+                            <img class="logo" src="images/morkedim-logo.png" alt="">
+                            <p class="web-none">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Odit, inventore repudiandae eligendi animi perspiciatis, ex minima,
+                                optio aspernatur, quis saepe vitae mollitia!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="contact-info">
+                            <h5 class="border-left"><strong>İletişim Bilgileri</strong></h5>
+                            <ul>
+                                <li><a href="#"><i class="fas fa-phone-square"></i> 0212 000 00 00</a></li>
+                                <li><a href="#"><i class="fas fa-envelope"></i> info@morkedim.com</a></li>
+                                <li><a href="#"><i class="fas fa-map-marker-alt"></i> İstanbul-Beylikdüzü</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-2">
+                        <div class="fast-menu">
+                            <h5  class="border-left"><strong>Hızlı Menüler</strong></h5>
+                            <ul>
+                                <li><a href="#">Erkek Ayakkabı</a></li>
+                                <li><a href="#">Erkek Pantolon</a></li>
+                                <li><a href="#">Erkek Gömlek</a></li>
+                                <li><a href="#">Erkek Takım</a></li>
+                                <li><a href="#">Erkek Outlet</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-2">
+                        <div class="fast-menu">
+                            <h5  class="border-left"><strong>Hızlı Menüler</strong></h5>
+                            <ul>
+                                <li><a href="#">Erkek Ayakkabı</a></li>
+                                <li><a href="#">Erkek Pantolon</a></li>
+                                <li><a href="#">Erkek Gömlek</a></li>
+                                <li><a href="#">Erkek Takım</a></li>
+                                <li><a href="#">Erkek Outlet</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-2">
+                        <div class="fast-menu">
+                            <h5 class="border-left"><strong>Hızlı Menüler</strong></h5>
+                            <ul>
+                                <li><a href="#">Erkek Ayakkabı</a></li>
+                                <li><a href="#">Erkek Pantolon</a></li>
+                                <li><a href="#">Erkek Gömlek</a></li>
+                                <li><a href="#">Erkek Takım</a></li>
+                                <li><a href="#">Erkek Outlet</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-2">
+                        <div class="fast-menu">
+                            <h5 class="border-left"><strong>Hızlı Menüler</strong></h5>
+                            <ul>
+                                <li><a href="#">Erkek Ayakkabı</a></li>
+                                <li><a href="#">Erkek Pantolon</a></li>
+                                <li><a href="#">Erkek Gömlek</a></li>
+                                <li><a href="#">Erkek Takım</a></li>
+                                <li><a href="#">Erkek Outlet</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="copyright">
+            <div class="container">
+                <a href=""><i class="fas fa-phone-volume"></i> <strong>Müşteri Hizmetleri</strong>: 0850 304 4 371 </a>
+                <p>Copyright © 2016-2018  morkedim.com her hakkı saklıdır.
+                    -Bilgi Toplumu Hizmetleri</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+
+        $(document).ready(function(){
+            $('.owl-carousel').owlCarousel({
+                loop: true,
+                margin: 10,
+                items: 3,
+                autoplay: true,
+                mouseDrag: true,
+                dots: true,
+                nav: false,
+                center: false,
+                smartSpeed: 100,
+                autoplayHoverPause:true,
+                responsive: {
+                    250: {
+                        items: 2
+                    },
+                    600: {
+                        items: 3
+                    },
+                    1000: {
+                        items: 3
+                    }
+                }
+            });
+        });
+
+    </script>
+
+    <script>
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementsByClassName("scrollup").style.display = "block";
+            } else {
+                document.getElementsByClassName("scrollup").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function upFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+
+        }
+
+    </script>
+
+
+    <script src="owl.carousel.min.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.js"></script>
+
+</footer>
+
+<a href="" class="scrollup" id="top" onclick="upFunction()" style="display: none">
+    <i class="fas fa-paper-plane"></i>
+</a>
+
+<script>
+    var myScroll = document.getElementById('top');
+    window.onscroll = function () {
+
+        if (window.pageYOffset >= 10) {
+            myScroll.style.display = 'block';
+        }else{
+            myScroll.style.display = 'none';
+        }
+    };
+
+    myScroll.onclick = function () {
+        window.scrollTop(0,0);
+    }
+</script>
+
+
+</body>
+</html>
+
+
+
